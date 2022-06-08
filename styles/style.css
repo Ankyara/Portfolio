@@ -1,6 +1,23 @@
+/*--------------------------------------------------------------
+# GENERAL
+--------------------------------------------------------------*/
+
+.sectionTitle {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-image: url(/imagenes/fir-trees-g8c4b18c2b_1920.jpg);
+  
+}
+
+.row{
+   padding-top: 20px;
+}
+
+
+
 
 /*--------------------------------------------------------------
-# Divisor entre secciones - Divider
+# Divisor entre secciones - DIVIDER
 --------------------------------------------------------------*/
 .divider1, .divider2 {
   height: 0.5rem;
@@ -13,32 +30,25 @@
   box-sizing: border-box;
 }
 
-
 div {
   display: block;
 }
 
+
 /*--------------------------------------------------------------
 # HEADER
 --------------------------------------------------------------*/
-#header {
-    background-color: #212529;
-
-}
-
 #navRedes {
     padding-top: 15px;
-
 }
 
 /*--------------------------------------------------------------
 # BANNER
 --------------------------------------------------------------*/
 .banner {
-    background-image: url(/imagenes/wolves-g95e5c41b0_1920.jpg);
-    padding: 0px;
+    background-image: url(/imagenes/banner.jpg);
+    height: 500px;
 }
-
 
 /*--------------------------------------------------------------
 # ABOUT
@@ -46,12 +56,19 @@ div {
 .about {
   background-color: #212529;
   color: white;
-  padding: 80px;
+  padding: 20px 0px 40px 0px;
+  text-align: center;
 }
 
 .colAbout2, h1 {
   padding-bottom: 20px;
 }
+
+.colAbout2, p {
+  padding-right: 40px;
+}
+
+
 
 /*--------------------------------------------------------------
 # SKILLS
@@ -59,19 +76,13 @@ div {
 .skills {
   background-color: #212529;
   color: white;
-  padding: 40px;
+  padding: 0px 30px 50px 30px;
 }
 
 
 /*--------------------------------------------------------------
 # CV
 --------------------------------------------------------------*/
-
-/* .sectionTitle {
-    padding: 20px;
-    background-color:  #714ea8;
-  } */
-
 #columna1 {
   padding-left: 40px;
 } 
@@ -83,13 +94,13 @@ div {
 #cv {
     background-color: #212529;
     color: white;
-    padding-top: 10px;
+    padding: 20px;
 }
 
 .cv .cv-title {
     font-size: 26px;
     font-weight: 700;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
     color: white;
   }
@@ -142,3 +153,19 @@ div {
     background: black;
     border: 2px solid white;
   }
+
+/*--------------------------------------------------------------
+# FOOTER
+--------------------------------------------------------------*/
+
+.footer {
+  background-color: #212529;
+  color: white;
+  padding-top: 10px;
+  
+}
+
+.footer, p {
+  text-align: center;
+  padding-bottom: 5px;;
+}
