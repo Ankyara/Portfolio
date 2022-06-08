@@ -6,78 +6,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css" type="text/css">
     <link href="/bootstrap-5.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Romina Doval</title>
 </head>
 <body>
 
-<!-- -------------------------- BARRA NAVEGACION --------------------------- -->
-    <div clas="container">
-        <div class="row" id="barraNav">
-            <div class="col-4" id="logoAP">
-                <img src="/imagenes/logoAP.png" alt="" class="src" width="140" height="90">
-            </div>
 
-            <nav class="col-4" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">About</a></li>
-                  <li class="breadcrumb-item"><a href="#">Educación</a></li>
-                  <li class="breadcrumb-item"><a href="#">Proyectos</a></li>
-                  <li class="breadcrumb-item"><a href="#">Contacto</a></li>
+    <div class="container" id="principal"> <!-- container principal -->
 
-                </ol>
-              </nav>
-    
 
-            <div class="col-4">
-                <ul class="nav" id="">
-                    <li><a href="#" class="nav-link"><img src="/imagenes/linkedin.png" width="30" alt="Linkedin"></a></li>
-                    <li><a href="#" class="nav-link"><img src="/imagenes/instagram.png" alt="Instagram" width="30"></a></li>
-                    <li<button type="button" class="btn btn-dark">Login</button></li>
-                </ul>
-            </div>
-        </div>
+<!-- ------------------------------- HEADER -------------------------------- -->
+<nav class="navbar navbar-light bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="/imagenes/logoAP.png" alt="" width="140" height="90"></a>
+
+    <ul class="nav justify-content-end">
+      <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">
+          <img src="/imagenes/linkedin2 .png" width="30" alt="Linkedin"></a></li>
+
+      <li class="nav-item"><a class="nav-link" href="#">
+          <img src="/imagenes/instagram2.png" width="30" alt="Instagram"></a></li>
+
+      <li class="nav-item"><a class="nav-link" href="#">
+          <img src="/imagenes/login-32.png" width="30" alt="Login"></a></li>
+    </ul>
+  </div>
+</nav>
 <!-- ----------------------------------------------------------------------- -->
 
 
 <!-- ------------------------------- BANNER -------------------------------- -->
-        <div class="row">
-            <div class="card card-image" style="background-image: url(/imagenes/fondoBanner.jpg)">
-                <div class="text-white text-center rgba-stylish-strong py-5 px-4">
-                    <div class="py-5" id="banner">
-                        <h2 class="card-title h2 my-4 py-2">Romina Doval</h2>
-                        <p class="mb-4 pb-2 px-md-5 mx-md-5">Full Stack Developer Jr.</p>
-                        <a class="btn btn-outline-light"></i> Proyectos</a>
-                    </div>
-                </div>
-            </div>
+
+<div class="banner bg-dark text-secondary px-4 py-5 text-center">
+  <div class="py-5">
+    <h1 class="display-4 fw-bold text-white">Romina Doval</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="fs-3 mb-4 text-white" id="subTittle">Full Stack Developer Jr.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <!-- <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Dowloand</button>  -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ----------------------------------------------------------------------- -->
+
+<div class="divider1"></div>
+
+<!-- -------------------------------- ABOUT -------------------------------- -->
+<section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="colAbout1 col-3 text-center">
+        <img src="/imagenes/about.jpg" class="fotoAbout rounded-4 mb-3" alt="" width="160">
+      </div>
+      <div class="colAbout2 col-9">
+        <h1>Acerca de mi...</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo corporis, in saepe ut ex quos exercitationem
+          voluptates explicabo harum illum accusamus aut totam consequatur cum nobis non facilis obcaecati rem, facere
+          reiciendis, dolorem ducimus nisi officia iusto. Sint soluta adipisci quibusdam corporis alias libero molestias
+          nam,
+          rerum delectus, explicabo, officia at perspiciatis distinctio dolor expedita itaque? Eligendi, quam, numquam
+          aspernatur vero iure omnis consectetur, neque nisi quas consequuntur debitis. Voluptate asperiores aliquam</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ----------------------------------------------------------------------- -->
+
+<div class="divider1"></div>
+
+<!-- ------------------------------- SKILLS -------------------------------- -->
+<section class="skills">
+  <div class="container">
+    <div class="row" id="skills">
+
+      <div class="colSkills1 col-6">
+        <p class="labelSkills">HTML</p>
+        <div class="progress" style="height: 30px; width: 550px;">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">25%</div>
         </div>
 
+        <p class="labelSkills">CSS</p>
+        <div class="progress" style="height: 30px; width: 550px;">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">25%</div>
+        </div>
+
+        <p class="labelSkills">BOOTSTRAP</p>
+        <div class="progress" style="height: 30px; width: 550px;">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">25%</div>
+        </div>
+      </div>
 
 
+      <div class="colSkills1 col-6">
+        <div class="colSkills1 col-6">
+          <p class="labelSkills">JAVASCRIPT</p>
+          <div class="progress" style="height: 30px; width: 550px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100">25%</div>
+          </div>
 
+          <p class="labelSkills">Skill 5</p>
+          <div class="progress" style="height: 30px; width: 550px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100">25%</div>
+          </div>
 
+          <p class="labelSkills">Skill 6</p>
+          <div class="progress" style="height: 30px; width: 550px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100">25%</div>
+          </div>
+        </div>
 
-    
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ----------------------------------------------------------------------- -->
 
+<div class="divider2"></div>
 
+<!-- --------------------------------- CV ---------------------------------- -->
+<!-- ------------------------------ Educación ------------------------------ -->
+<section id="cv" class="cv">
+  <div class="container">
 
+    <!-- <div class="sectionTitle">
+      <h2>Resumen</h2>
+    </div> -->
 
+    <div class="row">
+      <div class="col-lg-6" id="columna1">
+        <h3 class="cv-title">Educación</h3>
+        <br>
+        <div class="cv-item pb-0">
+          <h4>Lic. en Relaciones del Trabajo &#45; 2021</h4>
+          <p><em>Universidad de Buenos Aires &#45; Facultad de Cs.Sociales</em></p><br>
+        </div>
 
+        <div class="cv-item">
+          <h4>Programador web &#47; Full Stack Junior &#45 2022</h4>
+          <p><em>Argentina Programa</em></p>
+          <ul>
+            <li>HTML &#45; CSS &#45; JavaScript</li>
+            <li>Git &#45; GitHub</li>
+            <li>Boostrap 5</li>
+            <li>TypeScript</li>
+            <li>Angular</li>
+            <li>Base de datos &#45; MySQL</li>
+            <li>Java</li>
+          </ul>
+        </div>
 
+        <div class="cv-item">
+          <h4>FullStack &#47; JavaScript &#43; Node JS &#45; 2022</h4>
+          <p><em>Codo a Codo</em></p>
+          <ul>
+            <li>HTML &#45; CSS &#45; Boostrap 5</li>
+            <li>Git &#45; GitHub</li>
+            <li>JavaScript</li>
+            <li>Node.JS</li>
+            <li>Base de datos &#45; MySQL</li>
+          </ul>
+        </div>
+      </div>
+      
+<!-- ------------------------- Experiencia Laboral ------------------------- -->
+      <div class="col-lg-6" id="columna2">
+        <h3 class="cv-title">Experiencia Laboral</h3><br>
+        <div class="cv-item">
+          <h4>Senior graphic design specialist</h4>
+          <h5>2019 - Present</h5>
+          <p><em>Experion, New York, NY </em></p>
+          <ul>
+            <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+            <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+            <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+            <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+          </ul>
+        </div>
+        <div class="cv-item">
+          <h4>Graphic design specialist</h4>
+          <h5>2017 - 2018</h5>
+          <p><em>Stepping Stone Advertising, New York, NY</em></p>
+          <ul>
+            <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+            <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+            <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+            <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
+  </div>
+</section>
+<!-- ----------------------------------------------------------------------- -->
 
+<div class="divider2"></div>
 
+<!-- ------------------------------ PROYECTOS ------------------------------ -->
+<section class="proyectos">
+  <div class="container">
+    <div class="row" id="proyectos">
+      <h2>PROYECTOS</h2>
+    </div>
+  
+  </div>
+</section>
 
+<!-- ----------------------------------------------------------------------- -->
 
+<div class="divider2"></div>
 
-
-
-
-
-
-
-
-
+<!-- ------------------------------- FOOTER -------------------------------- -->
 
 
 

@@ -1,9 +1,144 @@
-#barraNav {
-    background-color: black;
-    align-items: center;
+
+/*--------------------------------------------------------------
+# Divisor entre secciones - Divider
+--------------------------------------------------------------*/
+.divider1, .divider2 {
+  height: 0.5rem;
+  background-color: #adb5bd; 
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
 }
 
-ul {
-    list-style: none;
+*, ::after, ::before {
+  box-sizing: border-box;
 }
 
+
+div {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# HEADER
+--------------------------------------------------------------*/
+#header {
+    background-color: #212529;
+
+}
+
+#navRedes {
+    padding-top: 15px;
+
+}
+
+/*--------------------------------------------------------------
+# BANNER
+--------------------------------------------------------------*/
+.banner {
+    background-image: url(/imagenes/wolves-g95e5c41b0_1920.jpg);
+    padding: 0px;
+}
+
+
+/*--------------------------------------------------------------
+# ABOUT
+--------------------------------------------------------------*/
+.about {
+  background-color: #212529;
+  color: white;
+  padding: 80px;
+}
+
+.colAbout2, h1 {
+  padding-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+# SKILLS
+--------------------------------------------------------------*/
+.skills {
+  background-color: #212529;
+  color: white;
+  padding: 40px;
+}
+
+
+/*--------------------------------------------------------------
+# CV
+--------------------------------------------------------------*/
+
+/* .sectionTitle {
+    padding: 20px;
+    background-color:  #714ea8;
+  } */
+
+#columna1 {
+  padding-left: 40px;
+} 
+
+#columna2 {
+  padding-right: 40px;
+}
+  
+#cv {
+    background-color: #212529;
+    color: white;
+    padding-top: 10px;
+}
+
+.cv .cv-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .cv .cv-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid white;
+    position: relative;
+  }
+
+  .cv .cv-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .cv .cv-item h5 {
+    font-size: 16px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .cv .cv-item ul {
+    padding-left: 20px;
+  }
+
+  .cv .cv-item ul li {
+    padding-bottom: 10px;
+  }
+
+  .cv .cv-item:last-child {
+    padding-bottom: 0;
+  }
+
+  .cv .cv-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: black;
+    border: 2px solid white;
+  }
