@@ -6,6 +6,10 @@
   padding-top: 40px;
   padding-bottom: 20px;
   background-image: url(/imagenes/fir-trees-g8c4b18c2b_1920.jpg);
+  background-color: #212529;
+  color: white;
+  padding: 20px 0px 40px 0px;
+  text-align: center;
   
 }
 
@@ -14,12 +18,10 @@
 }
 
 
-
-
 /*--------------------------------------------------------------
 # Divisor entre secciones - DIVIDER
 --------------------------------------------------------------*/
-.divider1, .divider2 {
+.divider {
   height: 0.5rem;
   background-color: #adb5bd; 
   border: solid rgba(0, 0, 0, .15);
@@ -69,7 +71,6 @@ div {
 }
 
 
-
 /*--------------------------------------------------------------
 # SKILLS
 --------------------------------------------------------------*/
@@ -91,7 +92,7 @@ div {
   padding-right: 40px;
 }
   
-#cv {
+.cv {
     background-color: #212529;
     color: white;
     padding: 20px;
@@ -153,6 +154,43 @@ div {
     background: black;
     border: 2px solid white;
   }
+
+/*--------------------------------------------------------------
+# CURSOS
+--------------------------------------------------------------*/
+.cursos {
+  background-color: #212529;
+  color: white;
+  padding: 0px 30px 50px 30px;
+}
+
+#tarjetaCursos {
+  border: 1px solid white;
+  padding-top: 15px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.card-img-top {
+  width: 12rem;
+  height: 5rem;
+}
+
+#botonCursos {
+  margin-top: 1rem;
+}
+
+/*--------------------------------------------------------------
+# PROYECTOS 
+--------------------------------------------------------------*/
+
+.proyectos {
+  background-color: #212529;
+  color: white;
+  padding: 0px 30px 50px 30px;
+}
+
+
 
 /*--------------------------------------------------------------
 # FOOTER
